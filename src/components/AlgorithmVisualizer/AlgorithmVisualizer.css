@@ -1,0 +1,49 @@
+.app-container {
+  width: 100vw;
+}
+
+.bar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5rem;
+  height: 500px;
+}
+
+.bar {
+  background-color: #82abe4;
+  margin: 0 1.5px;
+}
+
+.toolbar-wrapper {
+  text-align: center;
+}
+
+.button + .button {
+  margin-left: 1rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: rgb(94, 120, 167);
+}
+
+.header-1 {
+  color: white;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  row-gap: 1rem;
+  width: max(50%, 800px);
+  border-radius: 10px;
+  background-color: rgb(94, 120, 167);
+  margin: 1rem auto;
+}
