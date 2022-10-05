@@ -89,7 +89,7 @@ export default function Algorithm() {
   return (
     <div className="app-container">
       <nav className="nav-wrapper">
-        <h1 className="header-1">Sorting Algorithms Visualizer V1.0</h1>
+        <h1 className="header-1">Algo Simplified</h1>
         <h2 className="header-2">Designed & Built by Kevin Gu</h2>
       </nav>
       <div className="bar-wrapper">
