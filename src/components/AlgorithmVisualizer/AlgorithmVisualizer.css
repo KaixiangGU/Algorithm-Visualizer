@@ -35,6 +35,12 @@
   color: white;
 }
 
+.header-2 {
+  color: white;
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+
 .form-wrapper {
   display: flex;
   flex-direction: column;
@@ -42,8 +48,17 @@
   justify-content: center;
   padding: 1rem;
   row-gap: 1rem;
-  width: max(50%, 800px);
+  width: 50%;
   border-radius: 10px;
   background-color: rgb(94, 120, 167);
   margin: 1rem auto;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
